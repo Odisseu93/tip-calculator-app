@@ -19,6 +19,8 @@ O objetivo deste projeto é constriur uma calculadora, que calcula o valor total
 <img src="https://www.imagemhost.com.br/images/2022/03/11/mobile-design.jpg" style ="width:50%">
 
 
+
+
 ## Designs finalizados:
 [ ] **Active-states**
 [ ] **Desktop-design-completed**
