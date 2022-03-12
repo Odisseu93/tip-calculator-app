@@ -20,12 +20,3 @@ O objetivo deste projeto é constriur uma calculadora, que calcula o valor total
 
 
 
-
-## Designs finalizados:
-[ ] **Active-states**
-[ ] **Desktop-design-completed**
-[ ] **Desktop-design-empty**
-[ ] **Desktop-preview**
-[ ] **Mobile-design**
-
-
