@@ -1,0 +1,10 @@
+:root {
+  font-family: 'Space Mono', monospace;
+  font-weight: 800;
+}
+
+
+
+.art-bill-input,.art-selecTip-input,.art-selectTip-numberOfPeople-input,.art-resul-input {
+  font-size: 24px;  
+}
