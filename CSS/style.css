@@ -3,7 +3,30 @@
   font-weight: 800;
 }
 
+body {
+  background: #C5E4E7;
+}
 
+main {
+  background: #fff;
+  border-radius: 10px;
+  padding: 7%;
+}
+
+.art-selecTip-input {
+  background: hsl(183, 100%, 15%);
+  color: #fff;
+}
+
+.art-result {
+  width: 100%;
+  background: hsl(183, 100%, 15%);
+  padding: 7%;
+}
+
+.art-resul-title{ 
+  color: #fff;
+}
 
 .art-bill-input,.art-selecTip-input,.art-selectTip-numberOfPeople-input,.art-resul-input {
   font-size: 24px;  
