@@ -3,6 +3,10 @@
   font-weight: 800;
 }
 
+header {
+  color: hsl(186, 14%, 43%);
+}
+
 body {
   background: #C5E4E7;
 }
@@ -29,7 +33,7 @@ main {
 }
 
 .art-bill,.art-title {
-color: hsl(186, 14%, 43%);
+color: #687B7B;
 }
 
 .art-bill-input,.art-selecTip-input,.art-selectTip-numberOfPeople-input,.art-resul-input {
