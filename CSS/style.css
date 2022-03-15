@@ -25,7 +25,7 @@ main {
 }
 
 .art-resul-title{ 
-  color: #fff;
+  color: hsl(189, 41%, 97%);
 }
 
 .art-bill-input,.art-selecTip-input,.art-selectTip-numberOfPeople-input,.art-resul-input {
