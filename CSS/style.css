@@ -24,8 +24,12 @@ main {
   padding: 7%;
 }
 
-.art-resul-title{ 
+.art-resul-title { 
   color: hsl(189, 41%, 97%);
+}
+
+.art-bill,.art-title {
+color: hsl(186, 14%, 43%);
 }
 
 .art-bill-input,.art-selecTip-input,.art-selectTip-numberOfPeople-input,.art-resul-input {
