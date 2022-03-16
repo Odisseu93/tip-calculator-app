@@ -17,7 +17,13 @@ main {
   padding: 7%;
 }
 
+.art-title {
+  width: 100%;
+
+}
+
 .art-selecTip-input {
+  width: 40% ;
   background: hsl(183, 100%, 15%);
   color: hsl(189, 41%, 97%);
 }
