@@ -27,7 +27,8 @@ main {
 .art-selecTip-input {
  width: 45% ;
   height: 45px;
-  margin: 1%; 
+  margin: 1%;
+  border: none; 
   border-radius: 7px;
   background: hsl(183, 100%, 15%);
   color: hsl(189, 41%, 97%);
@@ -39,18 +40,37 @@ main {
   padding: 7%;
 }
 
-.art-resul-title { 
+.art-resul-lbl1 { 
   color: hsl(189, 41%, 97%);
+}
+
+.art-resul-lbl2 {
+  color: hsl(186, 14%, 43%);
+}
+
+.art-resul-lbl3 {
+  color: hsl(172, 67%, 45%);
 }
 
 .art-bill,.art-title {
 color: #687B7B;
 }
 
+.btnReset {
+  width: 100%;
+  height: 45px;
+  background: hsl(172, 67%, 45%);
+  border: none;
+  border-radius: 7px;
+  color: hsl(183, 100%, 15%);
+  font-size: 24px;  
+  text-transform: uppercase;
+}
+
 .art-result {
   width: 86%;
 }
 
-.art-bill-input,.art-selecTip-input,.art-selectTip-numberOfPeople-input,.art-resul-input {
+.art-bill-input,.art-selecTip-input,.art-selectTip-numberOfPeople-input,.art-resul-lbl3 {
   font-size: 24px;  
 }
