@@ -25,7 +25,10 @@ main {
 }
 
 .art-selecTip-input {
-  width: 40% ;
+ width: 45% ;
+  height: 45px;
+  margin: 1%; 
+  border-radius: 7px;
   background: hsl(183, 100%, 15%);
   color: hsl(189, 41%, 97%);
 }
