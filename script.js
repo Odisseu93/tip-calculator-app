@@ -8,8 +8,8 @@ const person = document.getElementById("art-selectTip-numberOfPeople-input");
 
 // update output values
 function update(){
-  document.getElementById("art-resul-lbl3-person").textContent = this.tipPerPerson;
-  document.getElementById("art-resul-lbl3-total").textContent = this.tipTotal;
+  document.getElementById("art-resul-lbl3-person").textContent = "$" + parseFloat(this.tipPerPerson.toFixed(2));
+  document.getElementById("art-resul-lbl3-total").textContent = "$" + parseFloat(this.tipTotal.toFixed(2));
 }
 
 // select tip % - buttons
@@ -24,8 +24,8 @@ document.getElementById("btnReset").addEventListener("click", () =>{
   this.tip = 0;
   this.tipPerPerson = 0;
   this.tipTotal = 0; 
-  document.getElementById("art-resul-lbl3-person").textContent = "$ " + 0.00;
-  document.getElementById("art-resul-lbl3-total").textContent = "$ " + 0.00;
+  document.getElementById("art-resul-lbl3-person").textContent = "$" + "0.00";
+  document.getElementById("art-resul-lbl3-total").textContent = "$" + "0.00";
   person.value = 0;
   bill.value = 0;
 });
