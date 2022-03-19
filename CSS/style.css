@@ -99,3 +99,18 @@ color: #687B7B;
   text-align: right;
   border: hsl(189, 41%, 97%);
 }
+.art-result div{ 
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ 
+}
+.art-resul-lbl1{
+  width: 100%;
+  }
+.art-resul-lbl2{
+width: 50%;
+}
+/* .art-resul-lbl1{
+width: 100%;
+} */
