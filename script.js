@@ -108,14 +108,10 @@ document.getElementById("btnReset").addEventListener("click", () => {
 
 //calculate tip per person and total tip
 function calc(tip) {
-  // if (bill.value == 0.00||person.value ==0) {
-  //   alert("invalid value!");
-  // }
   this.tipPerPerson = bill.value * tip / person.value;
   this.tipTotal = bill.value / person.value * (tip + 1);
   console.log("Por pessoa: " + tipPerPerson);
   console.log("total: " + tipTotal);
 
 }
-
 
