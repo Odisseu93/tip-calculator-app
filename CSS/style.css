@@ -95,6 +95,10 @@ main {
   text-transform: uppercase;
 }
 
+#btn-selecTip-custom{
+  background: #fff;
+  color:hsl(184, 14%, 56%);
+}
 
 /* others */
 .art-result div{ 
