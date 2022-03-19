@@ -44,7 +44,8 @@ document.getElementById("btn-selecTip-10").addEventListener("click", () => {
     alert("Bill Can't be Zero!");
     preventDefault();
     bill.style.border = " none";
-  } calc(tip);
+  }
+  calc(tip);
   update();
 });
 
@@ -59,7 +60,8 @@ document.getElementById("btn-selecTip-15").addEventListener("click", () => {
     alert("Bill Can't be Zero!");
     preventDefault();
     bill.style.border = " none";
-  } calc(tip);
+  }
+  calc(tip);
   update();
 });
 
@@ -74,7 +76,8 @@ document.getElementById("btn-selecTip-25").addEventListener("click", () => {
     alert("Bill Can't be Zero!");
     preventDefault();
     bill.style.border = " none";
-  } calc(tip);
+  }
+  calc(tip);
   update();
 });
 
@@ -89,9 +92,27 @@ document.getElementById("btn-selecTip-50").addEventListener("click", () => {
     alert("Bill Can't be Zero!");
     preventDefault();
     bill.style.border = " none";
-  } calc(tip);
+  }
+  calc(tip);
   update();
 });
+
+//custom
+document.getElementById("btn-selecTip-custom").addEventListener("click", () => {
+  this.tip = document.getElementById("btn-selecTip-custom").value;
+  if (person.value == 0) {
+    alert("Number of People Can't be Zero!");
+    preventDefault();
+  }
+  if (bill.value == 0) {
+    alert("Bill Can't be Zero!");
+    preventDefault();
+    bill.style.border = " none";
+  }
+  calcCustom(tip);
+  update();
+});
+
 
 
 // reset button
@@ -111,4 +132,21 @@ function calc(tip) {
   console.log("total: " + tipTotal);
 
 }
+
+
+function calcCustom() {
+  if ((tip < 1) && (tip > 0)) {
+    this.tipPerPerson = bill.value * tip / person.value;
+    this.tipTotal = bill.value / person.value * (tip + 1);
+    console.log("Por pessoa: " + tipPerPerson);
+    console.log("total: " + tipTotal);
+  }
+  if ((tip >= 1)) {
+    this.tipPerPerson = bill.value * tip / 100 / person.value;
+    this.tipTotal = bill.value * (tip / 100 + 1) / person.value;
+    console.log("Por pessoa: " + tipPerPerson);
+    console.log("total: " + tipTotal);
+  }
+}
+
 

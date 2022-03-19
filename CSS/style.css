@@ -41,7 +41,7 @@ main {
 
 /* inputs */
 #art-bill-input-id {
-  width: 94%;
+  width: 98%;
   background-image: url(\icon-dollar.svg);
   background-repeat: no-repeat; 
   text-align: right;
@@ -64,12 +64,13 @@ main {
  }
 
 .art-selectTip-numberOfPeople-input{
-  width: 94%;
+  width: 98%;
   background-image: url(\icon-person.svg);
   background-repeat: no-repeat;
   position: left; 
   text-align: right;
   border: hsl(189, 41%, 97%);
+  margin-bottom: 3px;
 }
 
 .art-result {
@@ -141,3 +142,35 @@ color: #687B7B;
 /* .art-resul-lbl1{
 width: 100%;
 } */
+
+@media(min-width:768px){
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 608.2px;
+  }
+
+  .art-selecTip-input{
+    width:13%;
+  }
+  .art-selectTip-numberOfPeople-input,#art-bill-input-id {
+    width: 30%;
+  }
+
+  .art-result {
+    height: 160px;
+  }
+
+  .art-result div{ 
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btnReset{
+    width:13%;
+    margin: 0 auto;
+  } 
+}
