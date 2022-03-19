@@ -143,6 +143,15 @@ color: #687B7B;
 width: 100%;
 } */
 
+@media(min-width:375px) and (max-width:425px){
+
+  main {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+    height: 581.2px;
+  }
+  
 @media(min-width:768px){
   main {
     display: flex;
@@ -163,14 +172,15 @@ width: 100%;
   }
 
   .art-result div{ 
-    width: 50%;
+    width: 67%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
   .btnReset{
-    width:13%;
+    width:30%;
     margin: 0 auto;
   } 
+}
 }

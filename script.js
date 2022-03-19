@@ -114,11 +114,11 @@ document.getElementById("btn-selecTip-custom").addEventListener("click", () => {
 });
 
 
-
 // reset button
 document.getElementById("btnReset").addEventListener("click", () => {
   document.getElementById("art-resul-lbl3-person").textContent = "";
   document.getElementById("art-resul-lbl3-total").textContent = "";
+  document.getElementById("btn-selecTip-custom").textContent = "";
   person.value = "";
   bill.value = "";
 });
