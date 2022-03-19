@@ -96,13 +96,10 @@ document.getElementById("btn-selecTip-50").addEventListener("click", () => {
 
 // reset button
 document.getElementById("btnReset").addEventListener("click", () => {
-  this.tip = 0;
-  this.tipPerPerson = 0;
-  this.tipTotal = 0;
-  document.getElementById("art-resul-lbl3-person").textContent = "$" + "0.00";
-  document.getElementById("art-resul-lbl3-total").textContent = "$" + "0.00";
-  person.value = 0;
-  bill.value = 0;
+  document.getElementById("art-resul-lbl3-person").textContent = "";
+  document.getElementById("art-resul-lbl3-total").textContent = "";
+  person.value = "";
+  bill.value = "";
 });
 
 
