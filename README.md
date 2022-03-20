@@ -1,24 +1,25 @@
 # Calculadora de gorjetas
 
-O objetivo deste projeto é constriur uma calculadora, que calcula o valor total de um serviço levevando em consideração as pessoas que vão dividir a conta e o percentual de gorjeta pago ao traabalhador prestando o serviço. O projeto deve seguir o seguintes designs de páginas:
+A ideia deste projeto foi proposta no [Frontend Mentor](https://www.frontendmentor.io/) e contruído por mim, seu objetivo é uma calculadora, que calcula o valor total de um serviço, levando em consideração, as pessoas que vão dividir a conta e o percentual de gorjeta pago ao trabalhador que está prestando o serviço de atendimento. 
+O projeto deve seguir o seguintes Templates:
+[Clique Aqui](https://www.imagemhost.com.br/album/rczdQ)
 
-- **Active-states**
-<img src="https://www.imagemhost.com.br/images/2022/03/11/active-states.jpg" style ="width:50%">
+### Clique na imagem para acessar a página!
 
+[<img src="https://www.imagemhost.com.br/images/2022/03/20/tip-calculator-screenshot.png" style = "width: 15%"></p>](https://odisseu93.github.io/tip-calculator-app)
 
-- **Desktop-design-completed**
-<img src="https://www.imagemhost.com.br/images/2022/03/11/desktop-design-completed.jpg" style ="width:50%">
+### Atividades feitas até agora:
+- ####  Estrutura html
+- ####  Código em JS para as operções feitas na página    
+- ####  Estilização para telas com larguras:
+  - ##### abaixo de 375px
+  - ##### de 375px a 425px
+  - ##### apartir 768px
+  - ##### apartir 1024px
+  
+  
 
-- **Desktop-design-empty**
-<img src="https://www.imagemhost.com.br/images/2022/03/11/desktop-design-empty.jpg" style ="width:50%">
-
-- **Desktop-preview**
-<img src="https://www.imagemhost.com.br/images/2022/03/11/desktop-preview.jpg" style ="width:50%">
-
-- **Mobile-design**
-<img src="https://www.imagemhost.com.br/images/2022/03/11/mobile-design.jpg" style ="width:50%">
-
-
-### [Link da página](https://odisseu93.github.io/tip-calculator-app/)
+### O que falta fazer:
+- #### Aproximar o estilo da página aos templates originais.
 
 
